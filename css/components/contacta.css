@@ -1,0 +1,17 @@
+/* Contacta section */
+.section-contacta {
+    background-color: var(--primary-gray);
+}
+
+.section-contacta h3,
+.section-contacta h5 {
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.section-contacta h3 {
+    font-weight: var(--font-weight-bold);
+}
+.section-contacta h5 {
+    font-weight: var(--font-weight-normal);
+}

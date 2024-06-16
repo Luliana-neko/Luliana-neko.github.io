@@ -1,0 +1,22 @@
+/* Chips */
+.badge {
+    background-color: var(--primary-red);
+    padding: 8px 40px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: var(--font-weight-semibold);
+    line-height: normal;
+    color: var(--white);
+    border-radius: 1rem;
+}
+
+.badge-small {
+    background-color: var(--primary-red);
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: var(--font-weight-semibold);
+    line-height: normal;
+    color: var(--white);
+    border-radius: 1rem;
+}

@@ -1,0 +1,148 @@
+/* Grid Home */
+.section-grid-home__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "main main main faqs faqs faqs"
+      "main main main carta carta carta";
+    min-height: 100vh;
+}
+
+.grid-home__main {
+    grid-area: main;
+}
+.grid-home__faqs {
+    grid-area: faqs;
+}
+.grid-home__carta {
+    grid-area: carta;
+}
+
+.grid-home__main__content {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 32px 32px 15% 32px;
+    width: 100%;
+    height: 100%;
+    background-image: url("/Archivos/Estudios/Proyectos/GitHub/tfg-burger/tfg-burger/assets/mosaic/main.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid-home__main__text-wrapper {
+    padding-left: calc((100vw - 1324px) / 2);
+}
+
+.grid-home__main__text {
+    color: var(--white);
+    font-size: 56px;
+    font-weight: var(--font-weight-normal);
+    line-height: 66px;
+    margin-bottom: 0;
+}
+
+.grid-home__main__title {
+    font-size: 80px;
+    font-weight: var(--font-weight-semibold);
+    line-height: 95px;
+    color: var(--white);
+}
+
+.grid-home__faqs__content,
+.grid-home__carta__content {
+    padding: 40px 24px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.grid-home__faqs__content {
+    background-image: url("/Archivos/Estudios/Proyectos/GitHub/tfg-burger/tfg-burger/assets/mosaic/restaurante.png");
+}
+.grid-home__carta__content {
+    background-image: url("/Archivos/Estudios/Proyectos/GitHub/tfg-burger/tfg-burger/assets/mosaic/carta.png");
+}
+.grid-home__faqs__text-wrapper,
+.grid-home__carta__text-wrapper {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.grid-home__faqs__link,
+.grid-home__carta__link {
+    font-size: 36px;
+    font-weight: var(--font-weight-normal);
+    line-height: 42px;
+    color: var(--white);
+    text-decoration: none;
+}
+.grid-home__faqs__link:hover,
+.grid-home__faqs__link:focus,
+.grid-home__faqs__link:active,
+.grid-home__carta__link:hover,
+.grid-home__carta__link:focus,
+.grid-home__carta__link:active {
+    color: var(--white);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .section-grid-home__container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "main main faqs faqs"
+        "main main carta carta";
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .section-grid-home__container {
+        min-height: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+          "main main"
+          "faqs faqs"
+          "carta carta";
+    }
+    .grid-home__faqs,
+    .grid-home__carta {
+        min-height: 465px;
+    }
+    .grid-home__main {
+        min-height: 100vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-home__container {
+        min-height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+            "main"
+            "faqs"
+            "carta";
+    }
+
+    .grid-home__main__text {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .grid-home__main__title {
+        font-size: 48px;
+        line-height: 56px;
+    }
+}

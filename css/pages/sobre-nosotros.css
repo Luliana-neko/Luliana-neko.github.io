@@ -1,0 +1,10 @@
+/* Info sobre nosotros */
+.section-join-team-img {
+    max-height: 550px;
+}
+
+@media screen and (max-width:991.99px) {
+    .section-join-team-img {
+        display: none;
+    }
+}

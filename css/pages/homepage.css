@@ -1,0 +1,30 @@
+/* Homepage */
+
+/* Quote */
+.section-quote {
+    background-color: var(--primary-gray);
+}
+.section-quote .container {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.section-quote p {
+    color: var(--white);
+}
+
+/* Productos */
+.section-productos-home {
+    background-color: var(--black);
+}
+.section-productos-home .container{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.section-productos-home h2 {
+    color: var(--white);
+    margin-bottom: 32px;
+}
+.section-productos-home h4 {
+    color: var(--white);
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,25 @@
+/* Buttons */
+
+.btn {
+    padding: 16px 40px;
+    background-color: var(--primary-red);
+    border-radius: 56px;
+    color: var(--white);
+    font-size: 24px;
+    font-weight: var(--font-weight-semibold);
+    line-height: 28px;
+}
+
+.btn:hover {
+    background-color: var(--secondary-red);
+    border: 1px solid var(--border-red);
+    color: var(--white);
+}
+
+.btn:focus-visible,
+.btn:focus {
+    background-color: var(--primary-red);
+    box-shadow: 0 0 0 .25rem var(--black);
+    color: var(--white);
+    outline: none;
+}

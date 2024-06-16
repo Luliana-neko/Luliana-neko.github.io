@@ -1,0 +1,110 @@
+/* Typography */
+
+:root {
+    --font-weight-lighter: lighter;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-normal-darker: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-bolder: bolder;
+}
+.display1 {
+    font-size: 80px;
+    font-weight: var(--font-weight-normal);
+    line-height: normal;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+.display2 {
+    font-size: 72px;
+    font-weight: var(--font-weight-normal);
+    line-height: normal;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+.display3 {
+    font-size: 64px;
+    font-weight: var(--font-weight-normal);
+    line-height: normal;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+.display4 {
+    font-weight: var(--font-weight-normal);
+    font-size: 56px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+.display5 {
+    font-weight: var(--font-weight-normal);
+    font-size: 48px;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.display6 {
+    font-weight: var(--font-weight-normal);
+    font-size: 40px;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+h1, .h1 {
+    font-weight: var(--font-weight-semibold);
+    font-size: 40px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+h2, .h2 {
+    font-weight: var(--font-weight-semibold);
+    font-size: 32px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+h3, .h3 {
+    font-weight: var(--font-weight-semibold);
+    font-size: 28px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+h4, .h4 {
+    font-weight: var(--font-weight-semibold);
+    font-size: 24px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+h5, .h5 {
+    font-weight: var(--font-weight-semibold);
+    font-size: 20px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+h6, .h6 {
+    font-weight: var(--font-weight-semibold);
+    font-size: 1rem;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+body {
+    font-size: 1rem;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+    h1, h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}

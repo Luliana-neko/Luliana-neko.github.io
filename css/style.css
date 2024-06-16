@@ -1,0 +1,27 @@
+/* Style CSS*/
+
+/* Abstracts */
+@import 'abstracts/colors.css';
+@import 'abstracts/fonts.css';
+@import 'abstracts/typography.css';
+
+/* Layout */
+@import 'layout/content.css';
+@import 'layout/header.css';
+@import 'layout/footer.css';
+
+/* Components */
+@import 'components/buttons.css';
+@import 'components/chips.css';
+@import 'components/inputs.css';
+@import 'components/breadcrumb.css';
+
+@import 'components/grid-home.css';
+@import 'components/contacta.css';
+@import 'components/cards.css';
+
+/* Pages */
+@import 'pages/homepage.css';
+@import 'pages/catalogo.css';
+@import 'pages/sobre-nosotros.css';
+@import 'pages/ayuda.css';
