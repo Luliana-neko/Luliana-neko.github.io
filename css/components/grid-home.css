@@ -29,7 +29,7 @@
     padding: 32px 32px 15% 32px;
     width: 100%;
     height: 100%;
-    background-image: url("/Archivos/Estudios/Proyectos/GitHub/tfg-burger/tfg-burger/assets/mosaic/main.png");
+    background-image: url("/assets/mosaic/main.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,10 +64,10 @@
     background-repeat: no-repeat;
 }
 .grid-home__faqs__content {
-    background-image: url("/Archivos/Estudios/Proyectos/GitHub/tfg-burger/tfg-burger/assets/mosaic/restaurante.png");
+    background-image: url("/assets/mosaic/restaurante.png");
 }
 .grid-home__carta__content {
-    background-image: url("/Archivos/Estudios/Proyectos/GitHub/tfg-burger/tfg-burger/assets/mosaic/carta.png");
+    background-image: url("/assets/mosaic/carta.png");
 }
 .grid-home__faqs__text-wrapper,
 .grid-home__carta__text-wrapper {
