@@ -1,10 +1,29 @@
 /* Info sobre nosotros */
-.section-join-team-img {
+.section-politic-img {
     max-height: 550px;
 }
 
+.section-politic-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 @media screen and (max-width:991.99px) {
-    .section-join-team-img {
+    .section-politic-img {
         display: none;
+    }
+
+    .section-politic-texts .btn {
+        padding: 8px 16px;
+        background-color: var(--primary-red);
+        border-radius: 56px;
+        color: var(--white);
+        font-size: 24px;
+        font-weight: var(--font-weight-semibold);
+        line-height: normal;
+        text-decoration: none;
+        display: flex;
+        align-self: center;
     }
 }
