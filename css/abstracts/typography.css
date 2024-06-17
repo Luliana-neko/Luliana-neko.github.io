@@ -96,7 +96,7 @@ h6, .h6 {
     line-height: normal;
 }
 
-body {
+body, .body {
     font-size: 1rem;
     margin-bottom: 0;
     line-height: normal;
