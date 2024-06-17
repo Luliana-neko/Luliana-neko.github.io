@@ -1,8 +1,19 @@
 /* Breadcrumbs */
-.breadcrumb-item {
+.breadcrumb-item,
+.breadcrumb-item.active {
     color: var(--black);
 }
 
 .breadcrumb-item a {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
     color: var(--black);
 }
