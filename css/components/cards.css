@@ -20,7 +20,8 @@
 
 .card-product .row{
     background-color: var(--white-gray);
-    padding: 22px;
+    padding: 32px;
+    width: -webkit-fill-available;
 }
 .card-product .product-img {
     display: flex;
@@ -30,8 +31,11 @@
 .card-product .product-info {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: flex-end;
+    gap: 1rem;
+    text-align: right;
 }
+
 .card-product .info {
     display: flex;
 }
@@ -46,6 +50,13 @@
 }
 .card-product {
     margin: 32px 0;
+    text-decoration: none;
+    color: var(--black);
+    display: flex;
+}
+.card-product:hover{
+    text-decoration: none;
+    color: var(--black);
 }
 
 /* Card description */
@@ -54,7 +65,7 @@
     padding: 24px;
     margin: 50px;
     text-decoration: none;
-    color: var(--black)
+    color: var(--black);
 }
 .cards-description p:before,
 .cards-description-small::before {
@@ -82,5 +93,10 @@
     .card-product .product-info {
         padding-top: 22px;
         align-items: unset;
+        text-align: unset;
+    }
+    .card-product .product-info .veggie {
+        max-height: 100px;
+        width: fit-content;
     }
 }

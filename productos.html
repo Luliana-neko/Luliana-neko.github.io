@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="/Archivos/Estudios/Proyectos/GitHub/tfg-burger/tfg-burger/favicon.ico">
+
+    <link href="/Archivos/Estudios/Proyectos/GitHub/tfg-burger/tfg-burger/css/style.css" rel="stylesheet">
+
+    <title>Productos | Burger</title>
+</head>
+
+<body class="path-frontpage d-flex flex-column h-100">
+
+    <!-- Main content accesibility -->
+    <!--<a href="#main-content" class="visually-hidden focusable skip-link">
+            Skip to main content
+        </a>-->
+    <div class="dialog-off-canvas-main-canvas d-flex flex-column h-100">
+
+        <!-- Header -->
+        <header class="colorfull-header">
+            <div class="header py-lg-3">
+                <div class="container-xxl px-0">
+                    <div class="row g-0">
+                        <div class="col-12 px-4 px-xxl-0">
+                            <div class="region region-pre-header">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <a class="icon" href="index.html">
+                                        <img alt="Icono Burger" class="h-100 w-100" src="assets/icons/favicon/logo.svg"
+                                            title="Logo Burger">
+                                    </a>
+                                    <a class="btn" href="https://glovoapp.com/es/es/zaragoza/">¡Pide Ya!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg pb-lg-4">
+                <div class="container-xxl px-4 px-xxl-0 d-flex">
+                    <div class="region region-nav-branding">
+                        <a href="index.html" title="Home" rel="home" class="site-logo d-block">
+                            <img src="assets/icons/favicon/logo.svg" alt="Home">
+                        </a>
+                    </div>
+                    <div class="region-buttons">
+                        <a class="btn-small d-lg-inline-block" href="https://glovoapp.com/es/es/zaragoza/">¡Pide Ya!</a>
+                        <button class="navbar-toggler collapsed ms-3" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse flex-wrap" id="navbarSupportedContent">
+                        <div class="region region-nav-main">
+                            <nav aria-labelledby="block-gdsubtheme-main-navigation-menu"
+                                id="block-gdsubtheme-main-navigation" class="block block-menu navigation menu--main">
+                                <h5 class="visually-hidden" id="block-gdsubtheme-main-navigation-menu">Main navigation
+                                </h5>
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item">
+                                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="productos.html" class="nav-item nav-link is-active">Productos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="restaurantes.html" class="nav-item nav-link">Restaurantes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="sobre-nosotros.html" class="nav-item nav-link">Sobre Nosotros</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <main>
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb" class="container py-4">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item h4"><a href="index.html">Inicio</a></li>
+                    <li class="breadcrumb-item h4 active" aria-current="page">Productos</li>
+                </ol>
+            </nav>
+
+            <section class="section-productos container">
+                <h1 class="display4">Productos</h1>
+                <div class="row py-5">
+                    <div class="col-lg-4 col-12 filtros">
+                        <h5 class="h3 mb-3 title-filters" data-bs-toggle="collapse" href="#collapseFilters" aria-controls="#collapseFilters" role="button" aria-expanded="false">Filtrar por</h5>
+                        <div class="collapse" id="collapseFilters">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Nombre del producto"
+                                    aria-label="Nombre del producto" aria-describedby="producto para buscar">
+                                <img class="glass" src="assets/icons/icons/icon_search.png" alt="Lupa">
+                            </div>
+                            <div class="filtros-categoria">
+                                <h4 class="mt-5 mb-4 title">Categorías</h4>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="bebidas">
+                                    <label class="form-check-label" for="bebidas">
+                                        Bebidas
+                                    </label>
+                                </div>
+                                <div class="form-check pt-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="hamburguesa">
+                                    <label class="form-check-label" for="hamburguesa">
+                                        Hamburguesa
+                                    </label>
+                                </div>
+                                <div class="form-check pt-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="hotdog">
+                                    <label class="form-check-label" for="hotdog">
+                                        Hot Dog
+                                    </label>
+                                </div>
+                                <div class="form-check pt-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="picoteo">
+                                    <label class="form-check-label" for="picoteo">
+                                        Picoteo
+                                    </label>
+                                </div>
+                                <div class="form-check pt-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="vegetariania">
+                                    <label class="form-check-label" for="vegetariania">
+                                        Vegetariania
+                                    </label>
+                                </div>
+                                <div class="form-check pt-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="vegana">
+                                    <label class="form-check-label" for="vegana">
+                                        Vegana
+                                    </label>
+                                </div>
+                                <div class="form-check pt-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="singluten">
+                                    <label class="form-check-label" for="singluten">
+                                        Sin Gluten
+                                    </label>
+                                </div>
+                                <div class="form-check pt-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="postres">
+                                    <label class="form-check-label" for="postres">
+                                        Postres
+                                    </label>
+                                </div>
+                                <div class="form-check pt-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="otros">
+                                    <label class="form-check-label" for="otros">
+                                        Otros
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="filtros-categoria">
+                                <h4 class="mt-4 mb-4 title">Rango de Precio</h4>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="10">
+                                    <label class="form-check-label" for="10">
+                                        < 10 €
+                                    </label>
+                                </div>
+                                <div class="form-check pt-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="25">
+                                    <label class="form-check-label" for="25">
+                                        < 25 €
+                                    </label>
+                                </div>
+                                <div class="form-check pt-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="50">
+                                    <label class="form-check-label" for="50">
+                                        < 50 €
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="filtros-categoria">
+                                <h4 class="mt-4 mb-4 title">Otras Opciones</h4>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="descuentos">
+                                    <label class="form-check-label" for="descuentos">
+                                        Descuentos
+                                    </label>
+                                </div>
+                                <div class="form-check pt-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="2x1">
+                                    <label class="form-check-label" for="2x1">
+                                        2x1
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-12 resultados">
+                        <div class="resultados-filtros pb-4">
+                            <h5 class="h3">3 Resultados</h5>
+                            <div class="resultados-filtros-filter">
+                                <label class="form-label mb-0 me-2 h4">Ordenar por: </label>
+                                <select class="form-select h5" aria-label="Select-filters">
+                                    <option selected class="h5">Relevancia</option>
+                                    <option value="1" class="h5">Precio</option>
+                                    <option value="2" class="h5">Novedad</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="filtros-aplicados">
+                            <h5 class="h4">Filtros aplicados (0)</h5>
+                        </div>
+                        <a class="card-product" aria-label="Card producto hamburguesa" href="producto-detalle.html">
+                            <div class="row m-0">
+                                <div class="col-md-6 col-12">
+                                    <img class="product-img" src="assets/products/burguer.png" alt="Hamburguesa completa producto">
+                                </div>
+                                <div class="col-md-6 col-12 product-info">
+                                    <h4 class="h3">Hamburguesa Completa</h4>
+                                    <p class="body">Doble hamburguesa, pepinillo, lechuga, tomate y nuestra salsa Burger</p>
+                                    <img class="veggie" src="assets/icons/icons/veggie.png" alt="Veggie icon">
+                                    <p class="price h6">5.70€</p>
+                                    <div class="badge">Hamburguesa</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card-product" aria-label="Card producto hamburguesa" href="">
+                            <div class="row m-0">
+                                <div class="col-md-6 col-12">
+                                    <img class="product-img" src="assets/products/hotdog.png" alt="Hotdog producto">
+                                </div>
+                                <div class="col-md-6 col-12 product-info">
+                                    <h4 class="h3">Hot Dog completo</h4>
+                                    <p class="body">Salchicha, tomate, lechuga, mostaza y ketchup</p>
+                                    <p class="price h6">4.85€</p>
+                                    <div class="badge">Hot Dog</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card-product" aria-label="Card producto hamburguesa" href="">
+                            <div class="row m-0">
+                                <div class="col-md-6 col-12">
+                                    <img class="product-img" src="assets/products/nuggets.png" alt="Nuggets con patatas producto">
+                                </div>
+                                <div class="col-md-6 col-12 product-info">
+                                    <h4 class="h3">Nuggets con patatas fritas</h4>
+                                    <p class="body">5 unidades</p>
+                                    <img class="veggie" src="assets/icons/icons/veggie.png" alt="Veggie icon">
+                                    <p class="price h6">3.75€</p>
+                                    <div class="badge">Picoteo</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact section -->
+            <section class="section-contacta">
+                <div class="container">
+                    <div class="col-12 py-5">
+                        <h3 class="h1">¿Alguna duda?</h3>
+                        <h5>Ponte en contacto con nosotros para obtener más información sobre el proyecto</h5>
+                        <a class="btn" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="py-5">
+            <div class="container">
+                <div class="footer-top row">
+                    <div class="col-lg-6 col-12">
+                        <a class="icon-footer" href="index.html">
+                            <img alt="Icono Burger" class="h-100"
+                                src="assets/icons/favicon/logo.svg" title="Logo Burger">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <nav class="navigation">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contacto.html">Contacto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="politica-privacidad.html">Política de Privacidad</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="footer-bottom row pt-5">
+                    <div class="col-lg-6 col-12">
+                        <p class="footer-bottom__info">¡Sabor irresistible, Burger te conquista!</p>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="footer-bottom__rrss">
+                            <ul class="footer__rrss__list list-unstyled mb-0 d-flex">
+                                <li class="me-2">
+                                    <a class="footer__rrss__link" href="" aria-label="Link twitter">
+                                        <i class="bi bi-twitter footer__rrss__link__icon"></i>
+                                    </a>
+                                </li>
+                                <li class="mx-2">
+                                    <a class="footer__rrss__link" href="" aria-label="Link facebook">
+                                        <i class="bi bi-facebook footer__rrss__link__icon"></i>
+                                    </a>
+                                </li>
+                                <li class="ms-2">
+                                    <a class="footer__rrss__link" href="" aria-label="Link instagram">
+                                        <i class="bi bi-instagram footer__rrss__link__icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
