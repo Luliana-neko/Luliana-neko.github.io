@@ -102,6 +102,13 @@ body, .body {
     line-height: normal;
 }
 
+.subtitles h2 {
+    font-weight: var(--font-weight-normal);
+    font-size: 28px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
 @media screen and (max-width: 768px) {
     h1, h2 {
         font-size: 40px;

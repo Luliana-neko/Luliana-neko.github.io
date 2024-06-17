@@ -1,0 +1,6 @@
+.section-restaurant .direction {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-direction: column;
+}
