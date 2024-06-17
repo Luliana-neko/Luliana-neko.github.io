@@ -21,7 +21,8 @@
     line-height: normal;
 }
 
-.section-buscador-space {
+.section-buscador-space,
+.section-politics-space {
     display: flex;
     gap: 1rem;
     flex-direction: column;
