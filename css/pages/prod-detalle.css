@@ -1,0 +1,30 @@
+/* Productos detalle */
+
+.section-product-detail .product-info .details{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.section-product-detail .product-info .details .alergenos {
+    display: flex;
+    gap: 1rem;
+}
+
+.section-more-productos .container{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.section-more-productos h2 {
+    margin-bottom: 32px;
+}
+.section-more-productos h4 {
+    margin-bottom: 1rem;
+}
+
+.section-more-productos .card-product-simple,
+.section-more-productos .card-product-simple h6,
+.section-more-productos .card-product-simple p  {
+    color: var(--black);
+}
