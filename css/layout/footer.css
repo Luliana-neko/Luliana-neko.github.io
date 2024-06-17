@@ -17,6 +17,10 @@ footer {
     color: var(--white);
 }
 
+.footer-top .is-active {
+    text-decoration: underline;
+}
+
 .footer-top .nav-link:hover {
     text-decoration: underline;
 }

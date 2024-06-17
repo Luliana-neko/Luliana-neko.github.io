@@ -5,7 +5,8 @@
     line-height: 21px;
 }
 
-input.form-control {
+input.form-control,
+.section-buscador-home textarea {
     padding: 8px 40px 8px 24px;
     background-color: var(--white);
     border-radius: 2px;

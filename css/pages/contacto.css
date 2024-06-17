@@ -1,0 +1,47 @@
+/* ayuda */
+.help a {
+    text-decoration: none;
+}
+
+.con-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.con-card {
+    color: unset;
+    text-decoration: none;
+}
+
+.con-texts {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: var(--font-weight-normal);
+    line-height: normal;
+}
+
+.section-buscador-space {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+@media screen and (max-width:991.99px) {
+    .section-buscador .btn {
+        padding: 8px 16px;
+        background-color: var(--primary-red);
+        border-radius: 56px;
+        color: var(--white);
+        font-size: 24px;
+        font-weight: var(--font-weight-semibold);
+        line-height: normal;
+        text-decoration: none;
+        display: flex;
+        align-self: center;
+    }
+
+    .section-buscador-img {
+        display: none;
+    }
+}

@@ -99,4 +99,8 @@
         max-height: 100px;
         width: fit-content;
     }
+
+    .cards-description {
+        margin: 20px 0;
+    }
 }
